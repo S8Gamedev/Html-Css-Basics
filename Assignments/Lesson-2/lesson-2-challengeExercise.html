@@ -17,6 +17,10 @@
 <style>
     a{
         color:rgb(0,113,113);
+        transition:color 0.15s;
+    }
+    a:hover{
+        color:rgb(188, 115, 52);
     }
     p.Price{
         color:rgb(0,118,0);
@@ -31,6 +35,14 @@
         width: 120px;
         height: 30px;;
         border-radius: 20px;
+        transition: background-color 0.15s,opacity 0.1s;
+        cursor: pointer;
+    }
+    .Add:hover{
+        background-color: rgb(195, 166, 23);
+    }
+    .Add:active{
+        opacity: 0.5;
     }
     button.Buy{
         border:none;
@@ -39,5 +51,13 @@
         width: 120px;
         border-radius: 20px;
         font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.15s,opacity 0.1s;
+    }
+    .Buy:hover{
+        background-color:rgb(232, 152, 31);
+    }
+    .Buy:active{
+        opacity:0.5;
     }
 </style>
